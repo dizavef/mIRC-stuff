@@ -1,0 +1,1 @@
+on *:notice:*This nickname is registered*:*: if (($nick == nickserv) && ($network == irchighway)) msg nickserv identify YOURPASSWORDHERE
